@@ -64,6 +64,8 @@ php ai/train_models.php
 # 6. Start the server
 php -S localhost:8000 -t public
 
+
+
 ##📊 Database Schema (Key Tables)
 users (id, name, email, role, password_hash, phone)
 properties (id, landlord_id, address, bedrooms, rent, amenities, ai_suggested_rent)
